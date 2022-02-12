@@ -30,7 +30,7 @@ const Header = () => {
             <div className="flex lg:w-0 lg:flex-1">
               <Link href="/">
                 <img
-                  src="logo-big.png"
+                  src="/logo-big.png"
                   className="w-auto h-12 aspect-square object-cover cursor-pointer rounded-lg"
                 />
               </Link>
