@@ -30,7 +30,7 @@ const Home = () => {
   const getData = async () => {
     try {
       const { data: res } = await axios(
-        `${process.env.NEXT_PUBLIC_API_BASE}?num=${currentPage}`
+        `https://wallpaper-api-sahilverma.herokuapp.com/?num=${currentPage}`
       );
 
       if (res) {

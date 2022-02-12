@@ -122,7 +122,7 @@ export const getServerSideProps = async ({ params }) => {
   try {
     const { id } = params;
     const { data } = await axios(
-      `${process.env.NEXT_PUBLIC_API_BASE}wallpaper/${id}`
+      `https://wallpaper-api-sahilverma.herokuapp.com/wallpaper/${id}`
     );
     return {
       props: { data },

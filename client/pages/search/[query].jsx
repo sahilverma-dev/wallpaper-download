@@ -32,7 +32,7 @@ const Home = () => {
     try {
       setIsLoading(true);
       const { data: res } = await axios(
-        `${process.env.NEXT_PUBLIC_API_BASE}search?q=${query}&page=${currentPage}`
+        `https://wallpaper-api-sahilverma.herokuapp.com/search?q=${query}&page=${currentPage}`
       );
       if (res) {
         setError(false);
