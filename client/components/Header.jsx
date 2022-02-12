@@ -30,8 +30,8 @@ const Header = () => {
             <div className="flex lg:w-0 lg:flex-1">
               <Link href="/">
                 <img
-                  src="https://simg.nicepng.com/png/small/261-2615441_download-the-wallpapers-app-from-google-play-store.png"
-                  className="w-auto h-10 bg-gray-200 cursor-pointer rounded-full"
+                  src="logo-big.png"
+                  className="w-auto h-12 aspect-square object-cover cursor-pointer rounded-lg"
                 />
               </Link>
             </div>
