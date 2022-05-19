@@ -1,4 +1,4 @@
-# Instagram Firebase
+# Wallpaper Downloader
 
 A Wallpaper downloading website made with Next JS and Tailwind CSS.
 
